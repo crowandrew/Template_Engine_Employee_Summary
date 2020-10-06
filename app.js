@@ -1,6 +1,5 @@
 // Required Packages
 const path = require("path");
-const fs = require("fs");
 
 // Required paths
 const OUTPUT_DIR = path.resolve(__dirname, "output");
@@ -9,8 +8,8 @@ const outputPath = path.join(OUTPUT_DIR, "team.html");
 // Required file imports
 const render = require("./lib/htmlRenderer");
 const employeeList = require("./lib/generateEmployeeList");
-const { checkForOutputDir } = require("./utils/checkForOutputDir");
-const { buildHtmlFile } = require("./utils/buildHtmlFile");
+const { checkForOutputDir } = require("./lib/checkForOutputDir");
+const { buildHtmlFile } = require("./lib/buildHtmlFile");
 
 // Function to initialize program
 async function init() {
