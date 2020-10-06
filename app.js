@@ -1,4 +1,4 @@
-// // Required Packages
+// Required Packages
 const path = require("path");
 const fs = require("fs");
 
