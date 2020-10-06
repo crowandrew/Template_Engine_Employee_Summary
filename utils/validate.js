@@ -1,13 +1,16 @@
-const checkName = () => {
-
+const checkName = input => {
+    
 };
 
 const checkId = () => {
 
 };
 
-const checkEmail = () => {
-
+const checkEmail = (email) => {
+    if(email === undefined){
+        return 'Please enter valid email'
+    } 
+    return true;
 };
 
 
