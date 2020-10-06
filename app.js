@@ -9,9 +9,8 @@ const render = require("./lib/htmlRenderer");
 
 async function init() {
     await employeeList.generateEmployeeList();
-    console.log(employeeList.employees);
     const html = await render(employeeList.employees);
-    console.log(html);
+
 }
 
 
