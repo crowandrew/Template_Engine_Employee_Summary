@@ -6,7 +6,7 @@ const fs = require("fs");
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 
-// // Required file imports
+// Required file imports
 const render = require("./lib/htmlRenderer");
 const employeeList = require("./lib/generateEmployeeList")
 
